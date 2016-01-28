@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "name": "ll-import",
+  "version": "0.0.1",
+  "description": "Parse linguaLeo",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint . --exclude node_modules --reporter node_modules/jshint-stylish/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/astur/ll-import.git"
+  },
+  "dependencies": {
+    "async": "^1.5.0",
+    "caba": "^1.0.2",
+    "needle": "^0.11.0",
+    "oopt": "0.0.2"
+  },
+  "devDependencies": {
+    "jshint": "^2.8.0",
+    "jshint-stylish": "^2.0.1"
+  },
+  "author": "astur <astur@yandex.ru> (http://kozlov.am/)",
+  "license": "MIT"
+}
